@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="product_card" type="id" />
+    <item name="tv_name" type="id" />
+    <item name="tv_price" type="id" />
+    <item name="tv_brand" type="id" />
+    <item name="tv_review" type="id" />
+    <item name="button" type="id" />
+    <item name="iv_imageView" type="id" />
+    <item name="tv_status" type="id" />
+</resources>
