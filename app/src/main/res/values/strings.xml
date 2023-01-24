@@ -16,23 +16,12 @@
     <string name="date_of_birth">Date Of Birth</string>
     <string name="email">email</string>
     <string name="add_to_card">Add to card</string>
+    <string name="user_registration">User Registration</string>
+    <string name="_09_06_2002">09/06/2002</string>
+    <string name="signup">signup</string>
+    <string name="signin">signin</string>
 
-
-        <string name="Project1">Ecommerce app</string>
-        <string name="user_prompt">Select an option</string>
-
-        <string-array name="user_arrays">
-            <item>Customer Login</item>
-            <item>Merchant Login</item>
-        </string-array>
-
-    <string name="Project2" tools:ignore="DuplicateDefinition">Ecommerce app</string>
-    <string name="register_prompt">Select an option</string>
-
-    <string-array name="register_arrays">
-        <item>Register as a Customer</item>
-        <item>Register as a Merchant</item>
-    </string-array>
+</resources>
 
 
 

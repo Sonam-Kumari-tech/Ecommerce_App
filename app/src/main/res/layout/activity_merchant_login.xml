@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserLoginActivity">
+
+    <TextView
+        android:id="@+id/tv_login_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical"
+        android:text="User Login"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18sp"
+        android:hint="abc@gmail.com"
+        android:orientation="vertical"
+        android:textColor="@color/grey"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="-26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18sp"
+        android:hint="student@1234"
+        android:inputType="textPassword"
+        android:orientation="vertical"
+        android:textColor="@color/grey" />
+
+    <Button
+        android:id="@+id/btn_signin1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/signin" />
+
+    <Button
+        android:id="@+id/btn_signup2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/grey"
+        android:text="@string/signup"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
